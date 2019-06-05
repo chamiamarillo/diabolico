@@ -9,9 +9,10 @@ public class Lugar {
     public List<Alma> almasDelLugar;
 
 
-    public Lugar(String nombreDelLugar, List<Alma> almasDelLugar) {
+    public Lugar(String nombreDelLugar) {
+
         this.nombreDelLugar = nombreDelLugar;
-        this.almasDelLugar = almasDelLugar;
+        almasDelLugar = new ArrayList<>();
     }
 
     public void agregarAlmasDelLugar(Alma almasDelLugar) {

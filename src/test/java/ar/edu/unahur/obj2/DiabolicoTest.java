@@ -18,14 +18,14 @@ public class DiabolicoTest {
         Alma pepe = new Alma(true, 80, 100);
 
 
-        Lugar unahur = new Lugar("unahur", null);
+        Lugar unahur = new Lugar("unahur");
        // unahur.agregarAlmasDelLugar(jorge);
         unahur.agregarAlmasDelLugar(javier);
        // unahur.agregarAlmasDelLugar(rama);
       //  unahur.agregarAlmasDelLugar(pepe);
 
 
-        Demonio fueguito = new DemonioFuego(40, null);
+        Demonio fueguito = new DemonioFuego(40);
 
         fueguito.cazar1(unahur);
 

@@ -5,8 +5,8 @@ import java.util.List;
 public class DemonioFuego extends Demonio {
 
 
-    public DemonioFuego(Integer nivelMaldad, List<Alma> almasCazadas) {
-        super(nivelMaldad, almasCazadas);
+    public DemonioFuego(Integer nivelMaldad) {
+        super(nivelMaldad);
     }
 
     @Override

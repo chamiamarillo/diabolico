@@ -9,14 +9,14 @@ public class Alma {
     public boolean friolenta = true;
     private double bondad;
     private double valor;
-    public List<TecnicaDefensa> tecnicaDefensas = new ArrayList<>();
+    public List<TecnicaDefensa> tecnicaDefensas;
 
 
-    public Alma(boolean friolenta, Integer bondad, Integer valor, List<TecnicaDefensa> tecnicaDefensas) {
+    public Alma(boolean friolenta, Integer bondad, Integer valor) {
         this.friolenta = friolenta;
         this.bondad = bondad;
         this.valor = valor;
-        this.tecnicaDefensas = tecnicaDefensas;
+        tecnicaDefensas = new ArrayList<>();
     }
 
 

@@ -10,9 +10,8 @@ public abstract class Demonio extends Diablo {
     public int contadorCazadas;
     public int contadorAtormentadas;
 
-    public Demonio(Integer nivelMaldad, List<Alma> almasCazadas) {
+    public Demonio(Integer nivelMaldad) {
         this.nivelMaldad = nivelMaldad;
-        this.almasCazadas = almasCazadas;
     }
 
     public void cazar1(Lugar lugar) {

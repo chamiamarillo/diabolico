@@ -4,9 +4,8 @@ import java.util.List;
 
 public class DemonioHielo extends Demonio{
 
-
-    public DemonioHielo(Integer nivelMaldad, List<Alma> almasCazadas) {
-        super(nivelMaldad, almasCazadas);
+    public DemonioHielo(Integer nivelMaldad) {
+        super(nivelMaldad);
     }
 
     @Override
@@ -16,7 +15,6 @@ public class DemonioHielo extends Demonio{
 
     @Override
     public void cazar2(Alma alma, Lugar lugar) {
- //       if (alma.tipoDeAlma.friolenta() == true) {
             if (alma.isFriolenta() == true) {
             this.almasCazadas.add(alma);
             lugar.almasDelLugar.remove(alma);
